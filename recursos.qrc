@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/entrada.png</file>
+        <file>images/dentro.png</file>
+        <file>images/mus.jpg</file>
+        <file>images/fon2.jpg</file>
+        <file>images/dentro1.jpg</file>
+        <file>images/bnB.jpg</file>
+        <file>images/bnexit.png</file>
+        <file>images/bnplay.png</file>
+        <file>images/com2.png</file>
+        <file>images/adelante.png</file>
+        <file>images/atras.png</file>
+        <file>images/puertas.png</file>
+        <file>images/dentro3.png</file>
+        <file>images/ruleta.png</file>
+        <file>images/ruleta2.jpeg</file>
+        <file>images/mapa.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>images/cienciaAbierta.png</file>
+        <file>images/historiaAbierta.png</file>
+        <file>images/politicaAbierta.png</file>
+        <file>images/arteAbierta.png</file>
+        <file>images/backHistoria.jpg</file>
+        <file>images/flecha1.png</file>
+        <file>images/arter.png</file>
+        <file>images/cienciar.png</file>
+        <file>images/historiar.png</file>
+        <file>images/politicar.png</file>
+    </qresource>
+</RCC>

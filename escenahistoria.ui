@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EscenaHistoria</class>
+ <widget class="QDialog" name="EscenaHistoria">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsViewHistoria">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>951</width>
+     <height>591</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbPregunta">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>781</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: rgba(0, 0, 0, 150); /* fondo negro translúcido */
+    color: white;                         /* texto blanco */
+    font-family: &quot;Segoe UI&quot;;              /* tipo de fuente */
+    font-size: 14pt;                      /* tamaño de texto */
+    font-weight: bold;                    /* texto más marcado */
+    border-radius: 10px;                  /* bordes suaves */
+    padding: 8px 15px;                    /* espacio interno */
+    qproperty-alignment: 'AlignCenter';   /* centra el texto */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnOpcionA">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background-color: rgba(0, 0, 0, 150); /* fondo negro translúcido */
+    color: white;                         /* texto blanco */
+    font-family: &quot;Segoe UI&quot;;              /* tipo de fuente */
+    font-size: 10pt;     
+  font-weight: bold;                    /* tamaño de texto */
+    border-radius: 10px;                  /* bordes suaves */
+    padding: 8px 15px;                    /* espacio interno */
+    qproperty-alignment: 'AlignCenter';   /* centra el texto */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnOpcionB">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>170</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background-color: rgba(0, 0, 0, 150); /* fondo negro translúcido */
+    color: white;                         /* texto blanco */
+    font-family: &quot;Segoe UI&quot;;              /* tipo de fuente */
+    font-size: 10pt;    
+  font-weight: bold;                    /* tamaño de texto */
+    border-radius: 10px;                  /* bordes suaves */
+    padding: 8px 15px;                    /* espacio interno */
+    qproperty-alignment: 'AlignCenter';   /* centra el texto */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnOpcionC">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>170</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background-color: rgba(0, 0, 0, 150); /* fondo negro translúcido */
+    color: white;                         /* texto blanco */
+    font-family: &quot;Segoe UI&quot;;              /* tipo de fuente */
+    font-size: 10pt;    
+  font-weight: bold;                     /* tamaño de texto */
+    border-radius: 10px;                  /* bordes suaves */
+    padding: 8px 15px;                    /* espacio interno */
+    qproperty-alignment: 'AlignCenter';   /* centra el texto */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnOpcionD">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>170</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background-color: rgba(0, 0, 0, 150); /* fondo negro translúcido */
+    color: white;                         /* texto blanco */
+    font-family: &quot;Segoe UI&quot;;              /* tipo de fuente */
+    font-size: 10pt;      
+  font-weight: bold;                   /* tamaño de texto */
+    border-radius: 10px;                  /* bordes suaves */
+    padding: 8px 15px;                    /* espacio interno */
+    qproperty-alignment: 'AlignCenter';   /* centra el texto */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbTiempo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: rgba(255, 255, 255, 180);  /* fondo blanco semi-transparente */
+    color: black;                                /* texto negro */
+    font-family: &quot;Segoe UI&quot;;                     /* tipo de fuente */
+    font-size: 12pt;                             /* tamaño de texto */
+    font-weight: bold;                           /* texto más marcado */
+    border-radius: 10px;                         /* bordes redondeados */
+    padding: 8px 15px;                           /* espacio interno */
+    qproperty-alignment: 'AlignCenter';          /* centra el texto */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbCantidad">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>10</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: rgba(255, 255, 255, 180);  /* fondo blanco semi-transparente */
+    color: black;                                /* texto negro */
+    font-family: &quot;Segoe UI&quot;;                     /* tipo de fuente */
+    font-size: 12pt;                             /* tamaño de texto */
+    font-weight: bold;                           /* texto más marcado */
+    border-radius: 10px;                         /* bordes redondeados */
+    padding: 8px 15px;                           /* espacio interno */
+    qproperty-alignment: 'AlignCenter';          /* centra el texto */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
